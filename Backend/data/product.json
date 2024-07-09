@@ -1,0 +1,442 @@
+[
+  {
+    "bikename": "Pulsar 150",
+    "bikeccvalue": "one",
+    "bikekm": "20000",
+    "biketype": "Petrol",
+    "bikeyear": "2021",
+    "bikeemmision": "BS3",
+    "bikelocation": "Thiruvottiyur,Chennai",
+    "bikedescription": "Duke 200cc bike in excellent condition with only 30,000 km on the odometer, insurance coverage, a well-maintained engine, and all original documents is available for sale",
+    "bikebrand": "BAJAJ",
+    "bikemodel": "Pulsar 150",
+    "bikeinsurance": "Insured",
+    "bikeownership": "Single",
+    "bikeprice": "50000",
+    "enginehealth": "7",
+    "electricalhealth": "5",
+    "mechanicalchasishealth": "6",
+    "paintfaringhealth": "5",
+    "tyre": "8",
+    "power": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "torque": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "mileage": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Sociosqu ad litora torquent.",
+    "bikebookingdetails": "Successfully Booked !",
+    "bikesellrequest": "Sell Request Pending",
+
+    "name": "Duke 200",
+    "price": 90000,
+    "description": "Duke 200 ",
+    "ratings": 4.5,
+    "images": [
+      {
+        "image": "/images/products/zero.png"
+      },
+      {
+        "image": "/images/products/one.png"
+      },
+      {
+        "image": "/images/products/two.png"
+      },
+      {
+        "image": "/images/products/three.png"
+      },
+      {
+        "image": "/images/products/four.png"
+      },
+      {
+        "image": "/images/products/five.png"
+      }
+    ],
+    "category": "Bajaj",
+    "seller": "Amazon",
+    "stock": 5,
+    "numOfReviews": 15,
+    "reviews": []
+  },
+  {
+    "bikename": "Pulsar 220",
+    "bikeccvalue": "one",
+    "bikekm": "5000",
+    "biketype": "Diesel",
+    "bikeyear": "2019",
+    "bikeemmision": "BS4",
+    "bikelocation": "Porur,Chennai",
+    "bikedescription": "Bajaj 200cc bike in excellent condition with only 30,000 km on the odometer, insurance coverage, a well-maintained engine, and all original documents is available for sale",
+    "bikebrand": "BAJAJ",
+    "bikemodel": "Pulsar 220",
+    "bikeinsurance": "Insured",
+    "bikeownership": "Single",
+    "bikeprice": "90000",
+    "enginehealth": "7",
+    "electricalhealth": "5",
+    "mechanicalchasishealth": "6",
+    "paintfaringhealth": "5",
+    "tyre": "8",
+    "power": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "torque": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "mileage": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Sociosqu ad litora torquent.",
+    "bikebookingdetails": "Successfully Booked !",
+    "bikesellrequest": "Sell Request Pending",
+
+    "name": "Duke 200",
+    "price": 90000,
+    "description": "Duke 200 ",
+    "ratings": 4.5,
+    "images": [
+      {
+        "image": "/images/products/zero.png"
+      },
+      {
+        "image": "/images/products/one.png"
+      },
+      {
+        "image": "/images/products/two.png"
+      },
+      {
+        "image": "/images/products/three.png"
+      },
+      {
+        "image": "/images/products/four.png"
+      },
+      {
+        "image": "/images/products/five.png"
+      }
+    ],
+    "category": "Bajaj",
+    "seller": "Amazon",
+    "stock": 5,
+    "numOfReviews": 15,
+    "reviews": []
+  },
+  {
+    "bikename": "Pulsar NS 200",
+    "bikeccvalue": "one",
+    "bikekm": "100",
+    "biketype": "Petrol",
+    "bikeyear": "2016",
+    "bikeemmision": "BS4",
+    "bikelocation": "Kilpauk,Chennai",
+    "bikedescription": "Duke 200cc bike in excellent condition with only 30,000 km on the odometer, insurance coverage, a well-maintained engine, and all original documents is available for sale",
+    "bikebrand": "BAJAJ",
+    "bikemodel": "Pulsar 150",
+    "bikeinsurance": "Insured",
+    "bikeownership": "Single",
+    "bikeprice": "10000",
+    "enginehealth": "7",
+    "electricalhealth": "5",
+    "mechanicalchasishealth": "6",
+    "paintfaringhealth": "5",
+    "tyre": "8",
+    "power": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "torque": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "mileage": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Sociosqu ad litora torquent.",
+    "bikebookingdetails": "Successfully Booked !",
+    "bikesellrequest": "Sell Request Pending",
+
+    "name": "Duke 200",
+    "price": 90000,
+    "description": "Duke 200 ",
+    "ratings": 4.5,
+    "images": [
+      {
+        "image": "/images/products/zero.png"
+      },
+      {
+        "image": "/images/products/one.png"
+      },
+      {
+        "image": "/images/products/two.png"
+      },
+      {
+        "image": "/images/products/three.png"
+      },
+      {
+        "image": "/images/products/four.png"
+      },
+      {
+        "image": "/images/products/five.png"
+      }
+    ],
+    "category": "Bajaj",
+    "seller": "Amazon",
+    "stock": 5,
+    "numOfReviews": 15,
+    "reviews": []
+  },
+  {
+    "bikename": "Honda Dio",
+    "bikeccvalue": "two",
+    "bikekm": "16",
+    "biketype": "Petrol",
+    "bikeyear": "2023",
+    "bikeemmision": "BS6",
+    "bikelocation": "Ennore,Chennai",
+    "bikedescription": "Dio 200cc bike in excellent condition with only 30,000 km on the odometer, insurance coverage, a well-maintained engine, and all original documents is available for sale",
+    "bikebrand": "Honda",
+    "bikemodel": "Honda Dio",
+    "bikeinsurance": "Not Insured",
+    "bikeownership": "Single",
+    "bikeprice": "130000",
+    "enginehealth": "7",
+    "electricalhealth": "5",
+    "mechanicalchasishealth": "6",
+    "paintfaringhealth": "5",
+    "tyre": "8",
+    "power": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "torque": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "mileage": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Sociosqu ad litora torquent.",
+    "bikebookingdetails": "Successfully Booked !",
+    "bikesellrequest": "Sell Request Pending",
+
+    "name": "Duke 200",
+    "price": 90000,
+    "description": "Duke 200 ",
+    "ratings": 4.5,
+    "images": [
+      {
+        "image": "/images/products/zero.png"
+      },
+      {
+        "image": "/images/products/one.png"
+      },
+      {
+        "image": "/images/products/two.png"
+      },
+      {
+        "image": "/images/products/three.png"
+      },
+      {
+        "image": "/images/products/four.png"
+      },
+      {
+        "image": "/images/products/five.png"
+      }
+    ],
+    "category": "Honda",
+    "seller": "Amazon",
+    "stock": 5,
+    "numOfReviews": 15,
+    "reviews": []
+  },
+  {
+    "bikename": "Pulsar 150",
+    "bikeccvalue": "two",
+    "bikekm": "20000",
+    "biketype": "Petrol",
+    "bikeyear": "2021",
+    "bikeemmision": "BS3",
+    "bikelocation": "Thiruvottiyur,Chennai",
+    "bikedescription": "Duke 200cc bike in excellent condition with only 30,000 km on the odometer, insurance coverage, a well-maintained engine, and all original documents is available for sale",
+    "bikebrand": "BAJAJ",
+    "bikemodel": "Pulsar 150",
+    "bikeinsurance": "Insured",
+    "bikeownership": "Single",
+    "bikeprice": "50000",
+    "enginehealth": "7",
+    "electricalhealth": "5",
+    "mechanicalchasishealth": "6",
+    "paintfaringhealth": "5",
+    "tyre": "8",
+    "power": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "torque": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "mileage": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Sociosqu ad litora torquent.",
+    "bikebookingdetails": "Successfully Booked !",
+    "bikesellrequest": "Sell Request Pending",
+
+    "name": "Duke 200",
+    "price": 90000,
+    "description": "Duke 200 ",
+    "ratings": 4.5,
+    "images": [
+      {
+        "image": "/images/products/zero.png"
+      },
+      {
+        "image": "/images/products/one.png"
+      },
+      {
+        "image": "/images/products/two.png"
+      },
+      {
+        "image": "/images/products/three.png"
+      },
+      {
+        "image": "/images/products/four.png"
+      },
+      {
+        "image": "/images/products/five.png"
+      }
+    ],
+    "category": "Yamaha",
+    "seller": "Amazon",
+    "stock": 5,
+    "numOfReviews": 15,
+    "reviews": []
+  },
+  {
+    "bikename": "Pulsar 150",
+    "bikeccvalue": "160cc - 200cc",
+    "bikekm": "20000",
+    "biketype": "Petrol",
+    "bikeyear": "2021",
+    "bikeemmision": "BS3",
+    "bikelocation": "Thiruvottiyur,Chennai",
+    "bikedescription": "Duke 200cc bike in excellent condition with only 30,000 km on the odometer, insurance coverage, a well-maintained engine, and all original documents is available for sale",
+    "bikebrand": "BAJAJ",
+    "bikemodel": "Pulsar 150",
+    "bikeinsurance": "Insured",
+    "bikeownership": "Single",
+    "bikeprice": "50000",
+    "enginehealth": "7",
+    "electricalhealth": "5",
+    "mechanicalchasishealth": "6",
+    "paintfaringhealth": "5",
+    "tyre": "8",
+    "power": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "torque": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "mileage": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Sociosqu ad litora torquent.",
+    "bikebookingdetails": "Successfully Booked !",
+    "bikesellrequest": "Sell Request Pending",
+
+    "name": "Duke 200",
+    "price": 90000,
+    "description": "Duke 200 ",
+    "ratings": 4.5,
+    "images": [
+      {
+        "image": "/images/products/zero.png"
+      },
+      {
+        "image": "/images/products/one.png"
+      },
+      {
+        "image": "/images/products/two.png"
+      },
+      {
+        "image": "/images/products/three.png"
+      },
+      {
+        "image": "/images/products/four.png"
+      },
+      {
+        "image": "/images/products/five.png"
+      }
+    ],
+    "category": "Susuzki",
+    "seller": "Amazon",
+    "stock": 5,
+    "numOfReviews": 15,
+    "reviews": []
+  },
+  {
+    "bikename": "Duke 390",
+    "bikeccvalue": "200cc - 400cc",
+    "bikekm": "700",
+    "biketype": "Petrol",
+    "bikeyear": "2018",
+    "bikeemmision": "BS6",
+    "bikelocation": "Avadi,Chennai",
+    "bikedescription": "Duke 200cc bike in excellent condition with only 30,000 km on the odometer, insurance coverage, a well-maintained engine, and all original documents is available for sale",
+    "bikebrand": "BAJAJ",
+    "bikemodel": "Pulsar 150",
+    "bikeinsurance": "Insured",
+    "bikeownership": "Single",
+    "bikeprice": "50000",
+    "enginehealth": "7",
+    "electricalhealth": "5",
+    "mechanicalchasishealth": "6",
+    "paintfaringhealth": "5",
+    "tyre": "8",
+    "power": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "torque": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "mileage": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Sociosqu ad litora torquent.",
+    "bikebookingdetails": "Successfully Booked !",
+    "bikesellrequest": "Sell Request Pending",
+
+    "name": "Duke 200",
+    "price": 90000,
+    "description": "Duke 200 ",
+    "ratings": 4.5,
+    "images": [
+      {
+        "image": "/images/products/zero.png"
+      },
+      {
+        "image": "/images/products/one.png"
+      },
+      {
+        "image": "/images/products/two.png"
+      },
+      {
+        "image": "/images/products/three.png"
+      },
+      {
+        "image": "/images/products/four.png"
+      },
+      {
+        "image": "/images/products/five.png"
+      }
+    ],
+    "category": "KTM",
+    "seller": "Amazon",
+    "stock": 5,
+    "numOfReviews": 15,
+    "reviews": []
+  },
+  {
+    "bikename": "Pulsar N160",
+    "bikeccvalue": "200cc - 400cc",
+    "bikekm": "100",
+    "biketype": "Petrol",
+    "bikeyear": "2021",
+    "bikeemmision": "BS6.2",
+    "bikelocation": "eRNAVOOR,Chennai",
+    "bikedescription": "Duke 200cc bike in excellent condition with only 30,000 km on the odometer, insurance coverage, a well-maintained engine, and all original documents is available for sale",
+    "bikebrand": "BAJAJ",
+    "bikemodel": "Pulsar 150",
+    "bikeinsurance": "Insured",
+    "bikeownership": "Single",
+    "bikeprice": "50000",
+    "enginehealth": "7",
+    "electricalhealth": "5",
+    "mechanicalchasishealth": "6",
+    "paintfaringhealth": "5",
+    "tyre": "8",
+    "power": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "torque": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent.",
+    "mileage": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Sociosqu ad litora torquent.",
+    "bikebookingdetails": "Successfully Booked !",
+    "bikesellrequest": "Sell Request Pending",
+
+    "name": "Duke 200",
+    "price": 90000,
+    "description": "Duke 200 ",
+    "ratings": 4.5,
+    "images": [
+      {
+        "image": "/images/products/zero.png"
+      },
+      {
+        "image": "/images/products/one.png"
+      },
+      {
+        "image": "/images/products/two.png"
+      },
+      {
+        "image": "/images/products/three.png"
+      },
+      {
+        "image": "/images/products/four.png"
+      },
+      {
+        "image": "/images/products/five.png"
+      }
+    ],
+    "category": "KTM",
+    "seller": "Amazon",
+    "stock": 5,
+    "numOfReviews": 15,
+    "reviews": []
+  }
+]
