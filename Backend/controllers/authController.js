@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const catchAsyncError = require("../middlewares/catchAsyncError");
 const User = require("../models/userModel");
-const sendEmail = require("../utils/email");
+const sendEmail = require("../utils/EMAIL.JS");
 const ErrorHandler = require("../utils/errorHandler");
 const sendToken = require("../utils/jwt");
 const crypto = require("crypto");
@@ -170,22 +170,96 @@ exports.registerUser = catchAsyncError(async (req, res, next) => {
   }
 
   const content = `
-  <div>
-  OTP: ${otp}
-  </div>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f4f4f4;
+          margin: 0;
+          padding: 0;
+        }
+        .container {
+          width: 100%;
+          max-width: 600px;
+          margin: 20px auto;
+          padding: 20px;
+          background-color: rgb(255, 255, 255);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          border-radius: 8px;
+          border: 3px solid #0e144b;
+        }
+        .header {
+          background-color: #f00;
+          padding: 10px;
+          color: #ffffff;
+          text-align: center;
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+        }
+        .content {
+          padding: 20px;
+          text-align: center;
+        }
+        .otp {
+          font-size: 24px;
+          font-weight: bold;
+          color: #333333;
+        }
+        .footer {
+          margin-top: 20px;
+          text-align: center;
+          color: #999999;
+          font-size: 12px;
+        }
+        @media only screen and (max-width: 600px) {
+          .container {
+            padding: 10px;
+          }
+          .header,
+          .content,
+          .footer {
+            padding: 10px;
+          }
+          .otp {
+            font-size: 20px;
+          }
+        }
+  
+        p {
+          color: #0e144b;
+          font-weight: 500;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="header">
+          <h1>Welcome to Revnitro</h1>
+        </div>
+        <div class="content">
+          <p>
+            Thank you for registering with
+            <a href="https://classifieds.revnitro.com">classifieds.revnitro.com</a
+            >!
+          </p>
+          <p>Your One-Time Password (OTP) is:</p>
+          <p class="otp">${otp}</p>
+          <p>
+            This OTP is valid for 10 minutes. Please do not share it with anyone.
+          </p>
+        </div>
+        <div class="footer">
+          <p>If you did not request this email, please ignore it.</p>
+        </div>
+      </div>
+    </body>
+  </html>
   `;
-  // const user = await User.create({
-  //   name,
-  //   email,
-  //   password,
-  //   verified: otp,
-  // });
-
-  // const updatedUser = { ...user, otp: otp };
-  // user._doc.otp = otp;
-  // console.log("userData", user);
-  // user.Append({ otp: otp });
-  sendMail(email, "OTP", content);
+  sendMail(email, "Your OTP Code", content);
 
   // sendToken(user, 201, res);
 
