@@ -17,12 +17,18 @@ const userSchema = new mongoose.Schema({
     validate: [validator.isEmail, "Please Enter valid Email"],
   },
 
+  mobilenumber: {
+    type: String,
+    required: [true, "Please Enter Mobile Number"],
+    validate: [validator.isMobilePhone, "Please Enter Valid Mobile Number"],
+    unique: true,
+  },
+
   password: {
     type: String,
     required: [true, "Please Enter Password"],
     minlength: [8, "Password must greater than 8 Characters"],
     maxlength: [16, "Password cannot exceed 16 Characters"],
-
     select: false,
   },
 

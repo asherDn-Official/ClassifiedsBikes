@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const catchAsyncError = require("../middlewares/catchAsyncError");
 const User = require("../models/userModel");
-const sendEmail = require("../utils/EMAIL.JS");
+const sendEmail = require("../utils/email");
 const ErrorHandler = require("../utils/errorHandler");
 const sendToken = require("../utils/jwt");
 const crypto = require("crypto");
@@ -89,6 +89,7 @@ exports.otpVerify = catchAsyncError(async (req, res, next) => {
           name: token.name,
           email: token.email,
           password: token.password,
+          mobilenumber: token.mobilenumber,
           // verified: otp,
         });
         // console.log("success");
@@ -132,7 +133,7 @@ exports.otpVerify = catchAsyncError(async (req, res, next) => {
 // });
 
 exports.registerUser = catchAsyncError(async (req, res, next) => {
-  const { name, email, password } = req.body;
+  const { name, email, password, mobilenumber } = req.body;
 
   const otp = Math.floor(100000 + Math.random() * 900000);
   const user = {
@@ -140,6 +141,7 @@ exports.registerUser = catchAsyncError(async (req, res, next) => {
     email,
     password,
     otp,
+    mobilenumber,
   };
 
   if (!(password.length >= 8 && password.length <= 12)) {
