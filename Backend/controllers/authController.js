@@ -157,7 +157,7 @@ exports.registerUser = catchAsyncError(async (req, res, next) => {
 
     return res.status(500).json({
       success: false,
-      message: "Password Must be Above 8 and Below 12 ",
+      message: "Password must be Above 8 and Below 12 ",
     });
   }
 
