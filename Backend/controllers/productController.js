@@ -69,15 +69,15 @@ exports.updateProduct = async (req, res, next) => {
 
   let images = [];
 
-  let BASE_URL = process.env.BACKEND_URL;
-  if (process.env.NODE_ENV === "production") {
-    BASE_URL = `${req.protocol}://${req.get("host")}`;
-  }
-
   // if images not cleard we keep existing images
 
   if (req.body.imagesCleared === "false") {
     images = product.images;
+  }
+
+  let BASE_URL = process.env.BACKEND_URL;
+  if (process.env.NODE_ENV === "production") {
+    BASE_URL = `${req.protocol}://${req.get("host")}`;
   }
 
   if (req.files.length > 0) {
