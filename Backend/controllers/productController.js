@@ -62,7 +62,7 @@ exports.getSingleProduct = async (req, res, next) => {
 
 // Update Products - /api/v1/product/:id
 
-exports.updateProduct = async (req, res, next) => {
+exports.updateProduct = catchAsyncError(async (req, res, next) => {
   let product = await Product.findById(req.params.id);
 
   // Uploading Images
@@ -104,7 +104,7 @@ exports.updateProduct = async (req, res, next) => {
     success: true,
     product,
   });
-};
+});
 
 // Delete Product - /api/v1/product/:id
 
